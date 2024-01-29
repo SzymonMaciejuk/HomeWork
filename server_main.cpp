@@ -3,21 +3,21 @@
 #include <string>
 #include <iostream>
 
-int main ( int argc, int argv[] )
+int main (int argc, int argv[])
 {
   std::cout << "### SERVER: status ON\n";
 
   try
     {
       // Create the socket
-      ServerSocket server ( 30000 );
+      ServerSocket server (30000);
 	  std::cout << "### SERVER: listening...\n";
 
       while ( true )
 	{
 
 	  ServerSocket new_sock;
-	  server.accept ( new_sock );
+	  server.accept (new_sock);
 
 	  try
 	    {
