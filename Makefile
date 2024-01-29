@@ -10,7 +10,7 @@ LDFLAGS =
 # Makefile settings - Can be customized.
 APPNAME = server_main client_main
 EXT = .cpp
-SRCDIR = /home/szymon/c++/Projects/Project1/src/src
+SRCDIR = /HomeWork-main/src/src
 OBJDIR = obj
 
 ############## Do not change anything from here downwards! #############
