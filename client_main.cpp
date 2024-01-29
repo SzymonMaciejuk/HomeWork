@@ -4,9 +4,9 @@
 #include <string>
 //#include <unistd.h>
 
-int main ( int argc, int argv[] )
+int main (int argc, int argv[])
 {
-  ClientSocket client_socket ( "localhost", 30000 );
+  ClientSocket client_socket ("localhost", 30000);
 
   while (true)
   {
